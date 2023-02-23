@@ -5,7 +5,7 @@ class Subject(models.Model):
         IMAGE = ("image", "image")
         VIDEO = ("video", "video")
 
-    subject_url = models.ImageField()
+    subject_url = models.FileField()
     type = models.CharField(
         max_length=10,
         choices=SubjectChoices.choices,
