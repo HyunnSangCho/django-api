@@ -12,4 +12,4 @@ class Content(models.Model):
     )
 
     def __str__(self):
-        return self.content_url
+        return self.content_url.name

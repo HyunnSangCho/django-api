@@ -12,4 +12,5 @@ class PageSerializer(serializers.ModelSerializer):
         model = Page
         fields = (
             "posts",
+            "count"
         )
